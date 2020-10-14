@@ -1,0 +1,141 @@
+* {
+   margin:0;
+   padding: 0;
+   font-family: 'Varela Round', sans-serif;
+}
+
+header {
+            
+            position: fixed;
+            background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),#000 url(yLn9K6k.jpg) center center;
+            width:100%;
+            height:100vh;
+            min-height: 100% ;
+            background-size: cover;
+            overflow: hidden;
+ 
+
+}
+
+header #middle p {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+        font-size: larger;
+        list-style-type: none;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: black;
+        float: right;
+        list-style-type: none;
+        margin-top: 26px;
+}
+
+ul li {
+    display:inline-block;
+    color:black;
+    
+}
+
+ul li a {
+    text-shadow: rgb(86, 74, 97);
+    text-decoration: none;
+    padding:6px 25px;
+    border:1px solid transparent #fff ;
+    border-radius: 25px;
+    color: #fff;
+    transition: ease-in;
+    transition: 0.8s;
+   
+}
+ul li a:hover {
+    background-color: aliceblue;
+    color:#000;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+
+.textf ul li.active a {
+    
+    background-color: aliceblue;
+    color:#000;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+
+.logo img {
+    
+    height:auto;
+    width:150px;
+    float:left;
+   
+    
+}
+#middle {
+    position: absolute;
+    top:30%;
+    left:50%;
+    right: 0;
+    font-size: large;
+   
+    text-align: center;
+    text-shadow: black;
+    transform:translate(-50%,-50%);
+}
+
+header #middle h1 {
+    color:#fff;
+    font-size: 70px;
+}
+
+#video { 
+    top: 41%;
+    left:32%;
+    position: absolute;
+ 
+
+    
+}
+
+.bmiddle {
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+ul li {
+    display:inline-block;
+    color:black;
+    
+}
+.bmiddle li {
+    text-shadow: rgb(86, 74, 97);
+    text-decoration: none;
+    padding:6px 25px;
+    border:1px solid transparent #fff ;
+    
+    color: #fff;
+    transition: step-end;
+    transition: 0.8s;
+    font-size: large;
+}
+
+
+.bmiddle ul li.active a {
+    background-color:#00C5CD;
+    color:black;
+    font-weight: bold;
+    padding:10px;
+    border-radius: 25px;
+
+}
+.bmiddle li.hover a {
+    background-color: aliceblue;
+    color:#000;
+    font-style: oblique;
+    font-family:sans-serif;
+
+}
